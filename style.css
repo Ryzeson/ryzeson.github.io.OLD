@@ -3,14 +3,14 @@
 }
 
 h1 {
-   border: 3px solid coral;
+   border: 3px solid #67C8DC;
+ border-radius: 100%;
 }
 
 h2 {
   color: #ABDC67;
  background-color: #000;
  opacity: .75;
- width: 250px;
 }
 
 table, th, td {
