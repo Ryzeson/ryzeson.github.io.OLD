@@ -5,6 +5,7 @@
 h2 {
   color: #ABDC67;
  background-color: #000;
+ opacity: .85;
 }
 
 table, th, td {
