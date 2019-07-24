@@ -1,6 +1,7 @@
 * {
  text-align: center;
  background-image: url("/content/smw-background-raw.PNG");
+ background-size: cover;
 }
 
 h1 {
