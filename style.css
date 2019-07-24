@@ -12,7 +12,8 @@ h2 {
  background-color: #000;
  opacity: .75;
  padding: 10px;
- margin: 30px;
+ width: 400px;
+ margin: 0 auto;
 }
 
 li {
