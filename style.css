@@ -1,5 +1,6 @@
 * {
- text-align: center; 
+ text-align: center;
+ background-color: tan;
 }
 
 h1 {
@@ -10,6 +11,10 @@ h2 {
   color: #ABDC67;
  background-color: #000;
  opacity: .75;
+}
+
+p {
+ background-color: peach;
 }
 
 table, th, td {
