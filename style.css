@@ -3,13 +3,12 @@
 }
 
 h1 {
- background-image: url("/content/sailor-ryz.jpg");
 }
 
 h2 {
   color: #ABDC67;
  background-color: #000;
- opacity: .85;
+ opacity: .75;
 }
 
 table, th, td {
