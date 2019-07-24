@@ -1,6 +1,6 @@
 * {
  text-align: center;
- background-color: tan;
+ background-color: salmon;
 }
 
 h1 {
@@ -14,8 +14,12 @@ h2 {
  padding: 10px;
 }
 
+li {
+ padding: 20px;
+}
+
 p {
- background-color: peach;
+ background-color: tan;
 }
 
 table, th, td {
