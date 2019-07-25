@@ -33,5 +33,9 @@ table, th, td {
 }
 
 ul.banjo {
- list-style-image: url("content/banjo-kazooie-icon.png");
+ list-style: none;
+}
+
+ul li {
+ background: url("/content/banjo-kazooie-icon.png");
 }
