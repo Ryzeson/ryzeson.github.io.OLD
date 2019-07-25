@@ -29,7 +29,7 @@ li {
 }
 
 table, th, td {
-  border: 1px solid black;
+  border: 3px solid black;
   font-family: Arial, sans-serif;
  border-collapse: collapse;
 }
@@ -39,6 +39,11 @@ th, td {
 }
 
 th {
- text-align: center;
+ background-color:#39B8CA;
+}
+
+td {
+ text-align: left;
+ background-color: #87E9F7;
 }
 
