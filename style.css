@@ -23,7 +23,7 @@ ul.art {
  list-style: none;
 }
 
-li {
+li.art {
  background: url("/content/paintbrush-icon.png") no-repeat left top;
  padding: 15px;
 }
