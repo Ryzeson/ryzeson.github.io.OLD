@@ -19,7 +19,7 @@ h2 {
 p {
 }
 
-ul {
+ul.art {
  list-style: none;
 }
 
@@ -45,5 +45,10 @@ th {
 td {
  text-align: left;
  background-color: #87E9F7;
+}
+
+.fish {
+ size: 20px;
+ font-weight: bold;
 }
 
