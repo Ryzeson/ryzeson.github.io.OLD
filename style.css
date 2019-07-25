@@ -31,3 +31,7 @@ table, th, td {
 .kale {
  color: #FDEBD0;
 }
+
+ul.banjo {
+ list-style-image: url("content/banjo-kazooie-icon.png");
+}
