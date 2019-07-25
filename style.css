@@ -16,9 +16,6 @@ h2 {
  margin: 40px auto;
 }
 
-li {
-}
-
 p {
 }
 
@@ -36,6 +33,6 @@ ul {
  list-style: none;
 }
 
-ul li {
+li {
  background: url("/content/banjo-kazooie-icon.png") no-repeat top left;
 }
