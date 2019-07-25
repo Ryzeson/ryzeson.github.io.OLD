@@ -50,5 +50,6 @@ td {
 .fish {
  size: 20px;
  font-weight: bold;
+ padding-bottom: 20px;
 }
 
