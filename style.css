@@ -19,16 +19,6 @@ h2 {
 p {
 }
 
-table, th, td {
-  border: 1px solid black;
-  font-family: Arial, sans-serif;
-  text-align: center;
-}
-
-.kale {
- color: #FDEBD0;
-}
-
 ul {
  list-style: none;
 }
@@ -37,3 +27,18 @@ li {
  background: url("/content/paintbrush-icon.png") no-repeat left top;
  padding: 15px;
 }
+
+table, th, td {
+  border: 1px solid black;
+  font-family: Arial, sans-serif;
+ border-collapse: collapse;
+}
+
+th, td {
+ padding: 10px;
+}
+
+th {
+ text-align: center;
+}
+
