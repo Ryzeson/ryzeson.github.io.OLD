@@ -34,6 +34,6 @@ ul {
 }
 
 li {
- background: url("/content/paintbrush-icon.png");
+ background: url("/content/paintbrush-icon.png") no-repeat left top;
  padding: 15px;
 }
