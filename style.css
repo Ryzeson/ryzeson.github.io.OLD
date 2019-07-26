@@ -4,7 +4,10 @@ background-color: #FDEBD0;
 }
 
 h1 {
-   border: 3px solid #67C8DC;
+   background-color: white;
+ width: 75%
+  opacity: .75;
+ border-radius: 20%;
 }
 
 h2 {
@@ -32,6 +35,8 @@ table, th, td {
   border: 3px solid black;
   font-family: Arial, sans-serif;
  border-collapse: collapse;
+ width: 50%;
+ content-align: auto;
 }
 
 th, td {
