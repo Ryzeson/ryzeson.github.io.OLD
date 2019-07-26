@@ -24,7 +24,7 @@ ul.art {
 }
 
 li.art {
- background: url("/content/paintbrush-icon.png") no-repeat left top;
+ background: url("content/paintbrush-icon.png") no-repeat left top;
  padding: 15px;
 }
 
