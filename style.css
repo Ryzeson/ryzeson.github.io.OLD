@@ -34,6 +34,7 @@ li.art {
 table, th, td {
   border: 3px solid black;
  border-collapse: collapse;
+ margin: 0 auto;
 }
 
 th, td {
