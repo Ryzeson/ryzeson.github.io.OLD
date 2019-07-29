@@ -47,7 +47,14 @@ th {
 
 td {
  text-align: left;
- background-color: #87E9F7;
+}
+
+tr:nth-child(even) {
+ background-color: #B0ECF5;
+}
+
+tr:nth-child(odd) {
+  background-color: #87E9F7;
 }
 
 img {
