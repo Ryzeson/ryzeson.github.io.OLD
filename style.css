@@ -52,6 +52,10 @@ td {
  background-color: #87E9F7;
 }
 
+img {
+ float: left;
+}
+
 .fish {
  size: 20px;
  font-weight: bold;
