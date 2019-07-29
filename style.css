@@ -1,6 +1,7 @@
 * {
  text-align: center;
 background-color: #FDEBD0;
+ box-sizing: border-box;
 }
 
 h1 {
