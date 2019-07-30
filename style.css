@@ -2,6 +2,7 @@
  text-align: center;
 background-color: #FDEBD0;
  box-sizing: border-box;
+ font-family: Tahoma, Geneva, sans-serif;
 }
 
 h1 {
@@ -19,16 +20,56 @@ h2 {
  margin: 40px auto;
 }
 
+lh {
+ font-size: 20px;
+ font-style: bold;
+ padding: 5px;
+}
+
 p {
 }
 
 ul.art {
  list-style: none;
+ width: 275px;
+ margin: 0 auto;
+text-align: center;
+}
+
+ul.links {
+ list-style: none;
+ width: 175px;
+ margin: 0 auto;
+text-align: center;
 }
 
 li.art {
  background: url("content/paintbrush-icon.png") no-repeat left top;
- padding: 15px;
+ padding: 0px 15px 15px 25px;
+}
+
+.links > li {
+ padding: 0px 15px 15px 15px;
+}
+
+.wiki {
+ background: url("content/wiki-icon.png") no-repeat left top;
+}
+
+.linkedin {
+ background: url("content/linkedin-icon.png") no-repeat left top;
+}
+
+.insta {
+ background: url("content/insta-icon.png") no-repeat left top;
+}
+
+.twitter {
+ background: url("content/twitter-icon.png") no-repeat left top;
+}
+
+.resume {
+ background: url("content/resume-icon.png") no-repeat left top;
 }
 
 table, th, td {
@@ -47,6 +88,7 @@ th {
 
 td {
  text-align: left;
+background-color: transparent;
 }
 
 tr {
@@ -61,9 +103,21 @@ img {
  float: left;
 }
 
+footer {
+ background-color: #000;
+ opacity: .75;
+ padding: 10px;
+}
+
+.footer {
+color: #ABDC67;
+background-color: #000;
+}
+
 .fish {
  size: 20px;
  font-weight: bold;
  padding-bottom: 20px;
+ letter-spacing: .05em;
 }
 
