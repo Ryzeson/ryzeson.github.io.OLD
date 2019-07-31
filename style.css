@@ -50,12 +50,12 @@ ul.links {
 text-align: center;
 }
 
-li.art {
+.art > li {
  background: url("content/paintbrush-icon.png") no-repeat left top;
  padding: 0px 15px 15px 25px;
 }
 
-li.philosophy {
+.philosophy > li {
  background: url("content/philosophy-icon.png") no-repeat left top;
  padding: 0px 15px 15px 25px;
 }
