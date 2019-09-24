@@ -120,7 +120,11 @@ tr:nth-child(odd) {
 }
 
 tr.games {
-background-color: transparent;
+background-color: #ABDC67;
+}
+
+td.games {
+background-color: #ABDC67;
 }
 
 img {
