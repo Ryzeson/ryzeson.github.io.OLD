@@ -119,6 +119,9 @@ tr:nth-child(odd) {
   background-color: #87E9F7;
 }
 
+td.games {
+background-color: transparent;
+}
 
 img {
  float: left;
