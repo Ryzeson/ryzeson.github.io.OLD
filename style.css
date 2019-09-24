@@ -92,7 +92,7 @@ text-align: center;
  background: url("content/github-icon.png") no-repeat left top;
 }
 
-table.videogames, th, td {
+table.videogame, th, td {
   border: 3px solid black;
  border-collapse: collapse;
  margin: 0 auto;
@@ -106,16 +106,16 @@ th.videogames {
  background-color:#39B8CA;
 }
 
-td.videogames {
+td.videogame {
  text-align: left;
 background-color: transparent;
 }
 
-tr.videogames {
+tr.videogame {
  background-color: #B0ECF5;
 }
 
-tr.videogames:nth-child(odd) {
+tr.videogame:nth-child(odd) {
   background-color: #87E9F7;
 }
 
