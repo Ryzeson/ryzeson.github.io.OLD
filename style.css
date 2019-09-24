@@ -119,11 +119,11 @@ tr:nth-child(odd) {
   background-color: #87E9F7;
 }
 
-.games > td {
+.games td {
 background-color: #ABDC67;
 }
 
-.games > tr {
+.games tr {
 background-color: #ABDC67;
 }
 
