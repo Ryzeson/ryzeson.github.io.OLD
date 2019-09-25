@@ -29,6 +29,10 @@ lh {
 p {
 }
 
+img {
+ float: left;
+}
+
 ul.art {
  list-style: none;
  width: 275px;
@@ -120,15 +124,11 @@ tr:nth-child(odd) {
 }
 
 .games td {
-background-color: #ABDC67;
-}
-
-.games tr {
 background-color: transparent;
 }
 
-img {
- float: left;
+.games tr {
+background-color: #ABDC67;
 }
 
 footer {
