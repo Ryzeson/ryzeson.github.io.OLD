@@ -131,6 +131,10 @@ background-color: transparent;
 background-color: #ABDC67;
 }
 
+.games a {
+background-color: #ABDC67;
+}
+
 footer {
  background-color: #000;
  opacity: .75;
