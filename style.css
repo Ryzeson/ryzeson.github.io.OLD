@@ -124,6 +124,7 @@ tr:nth-child(odd) {
 }
 
 .games td {
+ text-align: center;
 background-color: transparent;
 }
 
