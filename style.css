@@ -33,23 +33,9 @@ img {
  float: left;
 }
 
-ul.art {
+ul {
  list-style: none;
  width: 275px;
- margin: 0 auto;
-text-align: center;
-}
-
-ul.philosophy {
- list-style: none;
- width: 275px;
- margin: 0 auto;
-text-align: center;
-}
-
-ul.links {
- list-style: none;
- width: 175px;
  margin: 0 auto;
 text-align: center;
 }
