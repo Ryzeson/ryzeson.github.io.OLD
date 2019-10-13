@@ -40,14 +40,20 @@ ul {
 text-align: center;
 }
 
+ul.links {
+ width: 175px;
+}
+
+li {
+  padding: 0px 15px 15px 25px;
+}
+
 .art > li {
  background: url("content/paintbrush-icon.png") no-repeat left top;
- padding: 0px 15px 15px 25px;
 }
 
 .philosophy > li {
  background: url("content/philosophy-icon.png") no-repeat left top;
- padding: 0px 15px 15px 25px;
 }
 
 .links > li {
