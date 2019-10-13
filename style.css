@@ -49,11 +49,11 @@ li {
 }
 
 .art > li {
- background: url("content/paintbrush-icon.png") no-repeat left top;
+ background: url("content/icons/paintbrush-icon.png") no-repeat left top;
 }
 
 .philosophy > li {
- background: url("content/philosophy-icon.png") no-repeat left top;
+ background: url("content/icons/philosophy-icon.png") no-repeat left top;
 }
 
 .links > li {
@@ -65,27 +65,27 @@ li {
 }
 
 .wiki {
- background: url("content/wiki-icon.png") no-repeat left top;
+ background: url("content/icons/wiki-icon.png") no-repeat left top;
 }
 
 .linkedin {
- background: url("content/linkedin-icon.png") no-repeat left top;
+ background: url("content/icons/linkedin-icon.png") no-repeat left top;
 }
 
 .insta {
- background: url("content/insta-icon.png") no-repeat left top;
+ background: url("content/icons/insta-icon.png") no-repeat left top;
 }
 
 .twitter {
- background: url("content/twitter-icon.png") no-repeat left top;
+ background: url("content/icons/twitter-icon.png") no-repeat left top;
 }
 
 .resume {
- background: url("content/resume-icon.png") no-repeat left top;
+ background: url("content/icons/resume-icon.png") no-repeat left top;
 }
 
 .github {
- background: url("content/github-icon.png") no-repeat left top;
+ background: url("content/icons/github-icon.png") no-repeat left top;
 }
 
 table, th, td {
