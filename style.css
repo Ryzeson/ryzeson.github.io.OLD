@@ -5,14 +5,8 @@ background-color: #FDEBD0;
  font-family: Tahoma, Geneva, sans-serif;
 }
 
-h1 {
-   background-color: white;
- opacity: .75;
- border-radius: 20%;
-}
-
 h2 {
-  color: #ABDC67;
+ color: #ABDC67;
  background-color: #000;
  opacity: .75;
  padding: 10px;
@@ -37,7 +31,7 @@ ul {
  list-style: none;
  width: 275px;
  margin: 0 auto;
-text-align: center;
+ text-align: center;
 }
 
 ul.links {
@@ -104,7 +98,7 @@ th {
 
 td {
  text-align: left;
-background-color: transparent;
+ background-color: transparent;
 }
 
 tr {
