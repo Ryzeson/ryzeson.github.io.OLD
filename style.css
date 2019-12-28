@@ -1,6 +1,6 @@
 * {
  text-align: center;
-background-color: #FDEBD0;
+ background-color: #F9EFE1;
  box-sizing: border-box;
  font-family: Tahoma, Geneva, sans-serif;
 }
@@ -11,16 +11,26 @@ h2 {
  opacity: .75;
  padding: 10px;
  width: 800px;
- margin: 40px auto;
+ margin: 30px auto;
 }
 
-lh {
- font-size: 20px;
- font-style: bold;
- padding: 5px;
+a {
+ text-decoration: none;
+font-weight: bold;
+opacity: .85;
+ color: #200B67;
 }
 
-p {
+.links a {
+opacity: 1;
+}
+
+a:visited{
+ color: #929099;
+}
+
+a:hover {
+ color: #4247F7;
 }
 
 img {
@@ -35,15 +45,21 @@ ul {
  padding: 0;
 }
 
-li {
-  padding: 0px 15px 15px 25px;
+lh {
+ font-size: 20px;
+ font-style: bold;
+ padding: 5px;
 }
 
-.art li {
+li {
+  padding: 10px 15px 10px 25px;
+}
+
+.art {
  background: url("content/icons/paintbrush-icon.png") no-repeat left top;
 }
 
-.philosophy li {
+.philosophy {
  background: url("content/icons/philosophy-icon.png") no-repeat left top;
 }
 
@@ -69,6 +85,10 @@ li {
 
 .github {
  background: url("content/icons/github-icon.png") no-repeat left;
+}
+
+.essays {
+ width: 500px;
 }
 
 table, th, td {
@@ -123,6 +143,13 @@ background-color: #ABDC67;
 background-color: #ABDC67;
 }
 
+.fish {
+ size: 20px;
+ font-weight: bold;
+ padding-bottom: 20px;
+ letter-spacing: .05em;
+}
+
 footer {
  background-color: #000;
  opacity: .75;
@@ -133,11 +160,4 @@ footer {
 .footer {
 color: #ABDC67;
 background-color: #000;
-}
-
-.fish {
- size: 20px;
- font-weight: bold;
- padding-bottom: 20px;
- letter-spacing: .05em;
 }
