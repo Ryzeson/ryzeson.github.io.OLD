@@ -89,7 +89,11 @@ table, th, td {
  margin: 0 auto;
 }
 
-table.links tr, td {
+table.links {
+ border: none;
+}
+
+.links tr, td {
  text-align: right;
  border: none;
  background-color: transparent;
