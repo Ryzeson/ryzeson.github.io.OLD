@@ -43,15 +43,15 @@ li {
   padding: 0px 15px 15px 25px;
 }
 
-.art > li {
+.art li {
  background: url("content/icons/paintbrush-icon.png") no-repeat left top;
 }
 
-.philosophy > li {
+.philosophy li {
  background: url("content/icons/philosophy-icon.png") no-repeat left top;
 }
 
-.links > li {
+.links li {
  padding: 0px 15px 15px 15px;
 }
 
@@ -101,7 +101,6 @@ table.links tr {
 
 table.links td {
  text-align: right;
- width: 134px;
 }
 
 th {
@@ -110,7 +109,6 @@ th {
 }
 
 td {
- text-align: left;
  background-color: transparent;
  padding: 10px;
 }
