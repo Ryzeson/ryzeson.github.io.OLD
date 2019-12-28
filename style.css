@@ -35,10 +35,6 @@ ul {
  padding: 0;
 }
 
-ul.links {
- width: 175px;
-}
-
 li {
   padding: 0px 15px 15px 25px;
 }
@@ -49,14 +45,6 @@ li {
 
 .philosophy li {
  background: url("content/icons/philosophy-icon.png") no-repeat left top;
-}
-
-.links li {
- padding: 0px 15px 15px 15px;
-}
-
-.left-align {
- text-align: left;
 }
 
 .wiki {
@@ -90,8 +78,8 @@ table, th, td {
 }
 
 table.links {
- border: none;
- width: 800px;
+ border: 1px;
+ width: 804px;
 }
 
 table.links tr {
@@ -101,6 +89,7 @@ table.links tr {
 
 table.links td {
  text-align: right;
+ width: 134px;
 }
 
 th {
