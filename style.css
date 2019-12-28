@@ -55,11 +55,11 @@ li {
   padding: 10px 15px 10px 25px;
 }
 
-.art {
+.art li{
  background: url("content/icons/paintbrush-icon.png") no-repeat left top;
 }
 
-.philosophy {
+.philosophy li{
  background: url("content/icons/philosophy-icon.png") no-repeat left top;
 }
 
