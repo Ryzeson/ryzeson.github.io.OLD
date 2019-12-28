@@ -60,27 +60,27 @@ li {
 }
 
 .wiki {
- background: url("content/icons/wiki-icon.png") no-repeat left top;
+ background: url("content/icons/wiki-icon.png") no-repeat left;
 }
 
 .linkedin {
- background: url("content/icons/linkedin-icon.png") no-repeat left top;
+ background: url("content/icons/linkedin-icon.png") no-repeat left;
 }
 
 .insta {
- background: url("content/icons/insta-icon.png") no-repeat left top;
+ background: url("content/icons/insta-icon.png") no-repeat left;
 }
 
 .twitter {
- background: url("content/icons/twitter-icon.png") no-repeat left top;
+ background: url("content/icons/twitter-icon.png") no-repeat left;
 }
 
 .resume {
- background: url("content/icons/resume-icon.png") no-repeat left top;
+ background: url("content/icons/resume-icon.png") no-repeat left;
 }
 
 .github {
- background: url("content/icons/github-icon.png") no-repeat left top;
+ background: url("content/icons/github-icon.png") no-repeat left;
 }
 
 table, th, td {
@@ -91,12 +91,17 @@ table, th, td {
 
 table.links {
  border: none;
+ width: 800px;
 }
 
-.links tr, td {
+table.links tr {
  text-align: right;
- border: none;
  background-color: transparent;
+}
+
+table.links td {
+ text-align: right;
+ width: 134px;
 }
 
 th {
@@ -148,4 +153,3 @@ background-color: #000;
  padding-bottom: 20px;
  letter-spacing: .05em;
 }
-
