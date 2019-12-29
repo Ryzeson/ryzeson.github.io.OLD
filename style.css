@@ -122,6 +122,14 @@ td {
  padding: 10px;
 }
 
+.math tr {
+ color: #9DEBCE;
+}
+
+.math tr:nth-child(odd) {
+  background-color: #CBEADE;
+}
+
 tr {
  background-color: #B0ECF5;
 }
