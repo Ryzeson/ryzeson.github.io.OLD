@@ -99,7 +99,7 @@ table, th, td {
 
 table.links {
  border: 1px;
- width: 804px;
+ width: 700px;
 }
 
 table.links tr {
@@ -113,7 +113,8 @@ table.links td {
 }
 
 th {
- background-color:#39B8CA;
+ background-color: #1C7E5B;
+color: white;
  padding: 10px;
 }
 
@@ -122,11 +123,16 @@ td {
  padding: 10px;
 }
 
-.math tr {
- color: #9DEBCE;
+.math th {
+font-weight: bold;
+font-size: 110%;
 }
 
-.math tr:nth-child(odd) {
+.math tr, .math a {
+ background-color: #BFF2F9;
+}
+
+.math tr:nth-child(odd), .math tr:nth-child(odd) a {
   background-color: #CBEADE;
 }
 
