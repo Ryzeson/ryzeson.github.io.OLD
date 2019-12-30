@@ -87,6 +87,10 @@ li {
  background: url("content/icons/github-icon.png") no-repeat left;
 }
 
+.bot {
+ background: url("content/icons/bot-icon.png") no-repeat left;
+}
+
 .essays {
  width: 500px;
 }
@@ -99,7 +103,7 @@ table, th, td {
 
 table.links {
  border: 1px;
- width: 700px;
+ width: 938px;
 }
 
 table.links tr {
