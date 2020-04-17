@@ -107,6 +107,10 @@ table, th, td {
 
 table.math, table.algebra, table.computation, table.abstract {
  float: right;
+ width: 22%;
+ margin-bottom: 50px;
+ margin-right: auto;
+ margin-left: auto;
 }
 
 table.links {
