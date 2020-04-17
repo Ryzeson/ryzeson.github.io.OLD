@@ -105,6 +105,10 @@ table, th, td {
  margin: 0 auto;
 }
 
+table.math, table.algebra, table.computation, table.abstract {
+ float: right;
+}
+
 table.links {
  border: 1px;
  width: 938px;
