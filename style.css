@@ -91,6 +91,10 @@ li {
  background: url("content/icons/bot-icon.png") no-repeat left;
 }
 
+.nesciebam {
+ background: url("content/icons/nesciebam-icon.png") no-repeat left;
+}
+
 .essays {
  width: 500px;
 }
