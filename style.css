@@ -110,6 +110,7 @@ table.math, table.algebra, table.computation, table.abstract {
  margin-bottom: 50px;
  margin-right: auto;
  margin-left: auto;
+ float: center;
 }
 
 table.links {
