@@ -106,10 +106,10 @@ table, th, td {
 }
 
 table.math, table.algebra, table.computation, table.abstract {
-  width: 100px;
-  height: 100px;
-  background-color: green;
-  display: inline-block;
+ margin-bottom: 50px;
+ margin-right: auto;
+ margin-left: auto;
+ float: center;
 }
 
 table.links {
