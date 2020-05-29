@@ -15,26 +15,14 @@ h2 {
 }
 
 a {
- text-decoration: none;
+text-decoration: none;
 font-weight: bold;
-opacity: .85;
  color: #200B67;
+ background-color: transparent;
 }
 
-.links a {
-opacity: 1;
-}
-
-a:visited{
- color: #929099;
-}
-
-a:hover {
+a:hover, .games a:hover {
  color: #4247F7;
-}
-
-img {
- float: left;
 }
 
 ul {
@@ -53,6 +41,21 @@ lh {
 
 li {
   padding: 10px 15px 10px 25px;
+}
+
+table.links {
+ border: none;
+ width: 938px;
+}
+
+table.links tr {
+ text-align: right;
+ background-color: transparent;
+}
+
+table.links td {
+ text-align: right;
+ width: 134px;
 }
 
 .art li{
@@ -105,33 +108,20 @@ table, th, td {
  margin: 0 auto;
 }
 
-table.math, table.algebra, table.computation, table.abstract {
- width: 22%;
- margin-bottom: 50px;
- margin-right: auto;
- margin-left: auto;
- float: center;
-}
-
-table.links {
- border: 1px;
- width: 938px;
-}
-
-table.links tr {
- text-align: right;
- background-color: transparent;
-}
-
-table.links td {
- text-align: right;
- width: 134px;
-}
-
 th {
- background-color: #1C7E5B;
+	 background-color: #1C7E5B;
 color: white;
  padding: 10px;
+ font-weight: bold;
+font-size: 110%;
+}
+
+tr{
+ background-color: #C1DEE9;
+}
+
+tr:nth-child(odd){
+  background-color: #C1E9E3;
 }
 
 td {
@@ -139,38 +129,22 @@ td {
  padding: 10px;
 }
 
-.math th {
-font-weight: bold;
-font-size: 110%;
+ .math table{
+	 table-layout: fixed;
+	 width: 310px;
+  margin-right: 1%;
+ margin-left: 1%;
+ display: inline-block;
+ border: none;
+float: center;
 }
 
-.math tr, .math a {
- background-color: #BFF2F9;
+.math th, tr {
+	width: 310px;
 }
 
-.math tr:nth-child(odd), .math tr:nth-child(odd) a {
-  background-color: #CBEADE;
-}
-
-tr {
- background-color: #B0ECF5;
-}
-
-tr:nth-child(odd) {
-  background-color: #87E9F7;
-}
-
-.games td {
- text-align: center;
-background-color: transparent;
-}
-
-.games tr {
-background-color: #ABDC67;
-}
-
-.games a {
-background-color: #ABDC67;
+.games a{
+	color: white;
 }
 
 .fish {

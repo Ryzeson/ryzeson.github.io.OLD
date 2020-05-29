@@ -8,7 +8,7 @@
   		gtag('js', new Date());
   		gtag('config', 'UA-144767954-1');
 		</script>
-		
+
 		<title>Ryzeson's Website</title>
 		<link href="style.css" type="text/css" rel="stylesheet">
 		<link rel="icon" href="content/icons/banjo-kazooie-icon.png">
@@ -17,7 +17,7 @@
 	<body>
 		<h1>Welcome!</h1>
 		<p>My name is Ryzeson and this is my personal website. Please take a look around!</p>
-		
+
 		<table class="links">
 			<tr>
 				<td class="linkedin">
@@ -46,31 +46,33 @@
 				</td>
 				</tr>
 		</table>
-		
+
 		<h2>My Games</h2>
-		
+
 		<table class="games">
-			<tr>
-			<td>
+			<th>
 				<a href="./game.html"> Birds of a Feather </a>
-			</td>
-			<td>					
+			</th>
+			<th>
 				<a href="./game.html#crab"> Whack-a-Crab </a>
-			</td>
-			<td>
+			</th>
+			<th>
 				<a href="./game.html#chomp"> Chomp </a>
-			</td>
-			<td>
+			</th>
+			<th>
 				<a href="./game.html#lightsout"> Lights Out </a>
-			</td>
+			</th>
 			</tr>
 			<tr>
 			<td>
 				<img src="content/pics/bof-ss.PNG" alt="Birds of a Feather Screenshot" width="200" height="350">
 			</td>
-			<td>		
-				<img src="content/pics/wac-ss.PNG" alt="Whack-a-Crab Screenshot" width="200" height="200">
+			<td>
+				<img src="content/pics/wac-ss.PNG" alt="Whack-a-Crab Screenshot" usemap="#map" width="200" height="200">
 			</td>
+			<map name="map">
+  				<area shape="circle" coords="29,3,1" alt="Hidden" href="test.html">
+			</map>
 			<td>
 				<img src="content/pics/chomp-ss.PNG" alt="Chomp Screenshot" width="200" height="200">
 			</td>
@@ -79,9 +81,9 @@
 			</td>
 			</tr>
 		</table>
-		
+
 		<h2>Essays</h2>
-		
+
 		<ul class="essays">
 			<li><a href="content/essays/Ozymandias.pdf" target="_blank">Ozymandias: A Complete Analysis</a></li>
 			<li><a href="content/essays/Exploring-the-Aura.pdf" target="_blank">Exploring the Aura</a></li>
@@ -91,9 +93,9 @@
 			<li><a href="content/essays/Race_During_the_Enlightenment.pdf" target="_blank">Race During the Enlightenment</a></li>
 			<li><a href="content/essays/The_Value_of_Race.pdf" target="_blank">The Value of Race</a></li>
 		</ul>
-		
+
 		<h2>Quiz Bowl</h2>
-		
+
 		<p>Being a good quizbowler means taking some notes. There are always more things to learn, but here are some of the topics where my notes are rather comprehensive.</p>
 		<ul class="art">
 			<lh>Art</lh>
@@ -102,14 +104,16 @@
 			<li><a href="content/art-3.pdf" target="_blank"> Impressionism-Precisionism </a></li>
 			<li><a href="content/art-4.pdf" target="_blank"> Regionalism-Present </a></li>
 		</ul>
-		
+
 		<ul class="philosophy">
 			<lh>Philosophy</lh>
 			<li><a href="content/philosophy.pdf" target="_blank">Pre-socratic-Contemporary</a></li>
 		</ul>
-		
+
+		<div class="math">
+
 		<h2>Mathematics</h2>
-		<table display:inline; class="math">
+		<table display:inline>
 			<th>
 				Combinatorics
 			</th>
@@ -164,19 +168,120 @@
 				</td>
 			</tr>
 		</table>
-		
-		<!--<table display:inline; class="algebra">
+
+		<table display:inline>
 			<th>
 				Linear Algebra
 			</th>
 			<tr>
 				<td>
-					<a href="content/math/Combinatorics__hw1.pdf" target="_blank">Algebra</a>
+					<a href="content/math/LA_1.pdf" target="_blank">Systems of Linear Equations</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="content/math/LA_2.pdf" target="_blank">Matrix Equation & Solution Sets</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="content/math/LA_3.pdf" target="_blank">Transformations & Dependence</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="content/math/LA_4.pdf" target="_blank">Invertible Matrices</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="content/math/LA_5.pdf" target="_blank">Determinants & Vector Spaces</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="content/math/LA_6.pdf" target="_blank">Subspaces</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="content/math/LA_7.pdf" target="_blank">Bases & Coordinate Vectors</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="content/math/LA_8.pdf" target="_blank">Eigenvectors & Eigenvalues</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="content/math/LA_9.pdf" target="_blank">Diagonalization</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="content/math/LA_10.pdf" target="_blank">Orthogonality</a>
 				</td>
 			</tr>
 		</table>
-		
-		<table display:inline; class="abstract">
+
+		<table display:inline>
+			<th>
+				Theory of Computation
+			</th>
+			<tr>
+				<td>
+					<a href="ToC_1.pdf" target="_blank">Regular Languages</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="ToC_2.pdf" target="_blank">Non-regular languages</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="ToC_3.pdf" target="_blank">Context-Free Grammars</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="ToC_4.pdf" target="_blank">Pumping Lemma for CFGs</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="ToC_5.pdf" target="_blank">Turing Machines</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="ToC_6.pdf" target="_blank">Deciders & Recognizers</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="ToC_7.pdf" target="_blank">Decidable Languages</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="ToC_8.pdf" target="_blank">Reducibility</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="ToC_9.pdf" target="_blank">P vs NP</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="ToC_10.pdf" target="_blank">NP-Complete</a>
+				</td>
+			</tr>
+		</table>
+
+		<!--<table display:inline>
 			<th>
 				Abstract Math
 			</th>
@@ -185,19 +290,10 @@
 					<a href="" target="_blank">Abstract</a>
 				</td>
 			</tr>
-		</table>
-		
-		<table display:inline; class="computation">
-			<th>
-				Theory of Computation
-			</th>
-			<tr>
-				<td>
-					<a href="" target="_blank">Computation</a>
-				</td>
-			</tr>
 		</table>-->
-		
+
+		</div>
+
 		<h2>Video Games</h2>
 		<p class="fish">"It’s the sum total of every expressive medium of all time made interactive… it's awesome."</p>
 		<p>Click <a href="./videogames.html">here</a> to take a look at all of the games I have ever beaten.</p>
