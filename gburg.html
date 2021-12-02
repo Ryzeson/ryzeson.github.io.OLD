@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Test Application Gburg</title>
+    <link rel="stylesheet" href="./index2.css"/>
+    <script src="./index2.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Medical-Financial Application</h1>
+    </header>
+
+    <section>
+      <fieldset>
+        <legend>General Information</legend>
+        <!-- <form class="" action="/processForm" method="post"> -->
+        <form class="">
+          First Name: <input type="text" id="firstName" name="firstname" value=""/> &nbsp;
+          Last Name: <input type="text" id="lastName" name="lastname" value=""/>
+      </fieldset>
+      <fieldset>
+        <legend>Age</legend>
+          Please select your age from the dropdown below.
+          <br>
+          <select id="conditions" name="conditions">
+            <option value="">-Select-</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+          </select>
+      </fieldset>
+      <fieldset>
+        <legend>Medical Information</legend>
+          Select all that apply.
+          <br>
+          <input type="checkbox" class="insurance" name="Medicare"/><label for="hasInsurance">I have insurance</label>
+          <input type="checkbox" class="insurance" name="Medicare"/><label for="hasDeductiblesOrCoPayments">I have deductibles or copayments</label>
+          <input type="checkbox" class="insurance" name="Medicare"/><label for="hasPhysician">I have a physician</label>
+      </fieldset>
+      <br>
+
+    </section>
+</body>
+
+</html>
